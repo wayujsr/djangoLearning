@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.neta_list, name='neta_list'),
+    path('', views.neta_list, name='neta_list'),
 ]
